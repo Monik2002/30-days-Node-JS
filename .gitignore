@@ -1,0 +1,38 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file (if used)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn debug log
+yarn-debug.log*
+
+# Ignore yarn error log
+yarn-error.log*
+
+# Ignore .DS_Store files (Mac-specific)
+.DS_Store
+
+# Ignore coverage directory (if using testing)
+coverage/
+
+# Ignore .env.example file (if used)
+.env.example
+
+# Ignore any files generated during development/build process
+/build
+/dist
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore any sensitive or user-specific files
+config.js
+
